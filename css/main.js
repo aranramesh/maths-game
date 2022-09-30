@@ -1,5 +1,6 @@
 var startEle = document.getElementById("start");
 var problemsEle= document.getElementsByClassName("problems")[0];
+var calculateEle = document.getElementById("calculate");
 
 
 function generaterandomnumber(max){
@@ -104,4 +105,20 @@ var stage1operation = function(){
 }
 
 
+
+function stage2operation (){
+   var problemElements =document.getElementsByClassName('problems')
+   console.log(problemsElements);
+}
+
+
 startEle.addEventListener('click',stage1operation);
+calculateEle.addEventListener('click',stage2operation);
+
+
+
+
+
+
+
+
